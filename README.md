@@ -1,1 +1,1 @@
-				*****This readme file explains what each script/programm is for*****
+this repo contains a set of low level programs written in C
