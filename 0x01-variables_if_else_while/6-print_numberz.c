@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- *main- program to print numbers
+ *main- program to print numbers using int data type
  *
  *numb: char with value '0'
  *
