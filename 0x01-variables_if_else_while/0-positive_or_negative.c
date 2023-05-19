@@ -2,9 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /**
- *main - program to give the status of the "n" 
+ *main - program to give the status of the "n"
  *
- *n: the number to give status 
+ *n: the number to give status
  *Return: 0 success
  */
 int main(void)
@@ -21,7 +21,7 @@ int main(void)
 	{
 		printf("%d is zero", n);
 	}
-	else 
+	else
 	{
 		printf("%d is negative", n);
 	}
