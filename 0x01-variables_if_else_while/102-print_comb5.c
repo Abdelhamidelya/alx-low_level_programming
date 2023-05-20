@@ -14,7 +14,7 @@ int main(void)
 	int numbB;
 
 	for (numbA = 0 ; numbA <= 98 ; numbA++)
-	for (numbB = 1 ; numbB <= 99 ; numbB++)
+	for (numbB = numbA + 1 ; numbB <= 99 ; numbB++)
 	{
 	putchar('0' + numbA / 10);
 	putchar('0' + numbA % 10);
