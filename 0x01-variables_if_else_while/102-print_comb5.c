@@ -21,8 +21,8 @@ int main(void)
 	putchar(' ');
 	putchar('0' + numbB / 10);
 	putchar('0' + numbB % 10);
-		if(numbA == 98 && numbB == 99)
-	        {
+		if (numbA == 98 && numbB == 99)
+		{
 			break;
 		}
 	putchar(',');
