@@ -35,7 +35,8 @@ for (count = 0 ; count < _strlen(str) ; count++)
 	{
 	if (count % 2 == 0)
 		{
-		putchar(str[count]);
+		_putchar(str[count]);
 		}
 	}
+	_putchar('\n');
 }
