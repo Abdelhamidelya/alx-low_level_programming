@@ -22,7 +22,8 @@ char *_strncpy(char *dest, char *src, int n)
 	return (NULL);
 	}
 
-	while (n-- && (*dest++ = *src++);
+	while
+	(n-- && (*dest++ = *src++));
 
 	return (s);
 }
