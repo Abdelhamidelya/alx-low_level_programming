@@ -39,7 +39,7 @@ char *_strncpy(char *dest, char *src, int n)
 	char *count;
 
 	count = dest;
-	while (*src != '\0' && n--)
+	while (*src && n--)
 	{
 	*dest = *src;
 	dest++;
