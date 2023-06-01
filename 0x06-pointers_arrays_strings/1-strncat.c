@@ -23,21 +23,23 @@ int _strlen(char *s)
 }
 
 /**
-*_strcat - function to concatenates two strings
+*_strncat - function to concatenates two strings
 *
 *@dest: destination to print from
 *
 *@src: newly printed string
 *
-*Return: concatenated string
+*@n: number of characters to be concatenated
+*
+*Return: concatenated strings
 */
 
-char *_strcat(char *dest, char *src)
+char *_strncat(char *dest, char *src, int n)
 {
 	char *count;
 
 	count = dest + _strlen(dest);
-	while (*src != '\0')
+	while (*src != '\0' && n--)
 	{
 	*count++ = *src++;
 	}
