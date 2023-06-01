@@ -14,14 +14,15 @@
 
 char *_strncpy(char *dest, char *src, int n)
 {
-	char *count;
+	char *s;
 
-	count = dest;
-	while (*src && n--)
+	s = dest;
+	if (dest == NULL)
 	{
-	*dest = *src;
-	dest++;
-	src++;
+	return (NULL);
 	}
-	return (count);
+
+	while (n-- && (*dest++ = *src++);
+
+	return (s);
 }
