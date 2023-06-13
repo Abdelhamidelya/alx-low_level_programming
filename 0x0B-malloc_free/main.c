@@ -1,25 +1,23 @@
+#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
 
-char *create_array(unsigned int, char);
-
 /**
- * main - check the code .
+ * main - check the code for ALX School students.
  *
  * Return: Always 0.
  */
 int main(void)
 {
-	char *buffer;
-	unsigned int size;
+    char *s;
 
-	size = 0;
-	buffer = create_array(size, 'H');
-	if (buffer == NULL)
-	{
-		printf("failed to allocate memory\n");
-		return (1);
-	}
-	free(buffer);
-	return (0);
+    s = str_concat("Betty ", "Holberton");
+    if (s == NULL)
+    {
+        printf("failed\n");
+        return (1);
+    }
+    printf("%s\n", s);
+    free(s);
+    return (0);
 }
