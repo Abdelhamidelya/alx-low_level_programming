@@ -21,6 +21,10 @@ char *_strdup(char *str)
 		return (NULL);
 	}
 	nstr = malloc(sizeof(char) * strlen(str) + 1);
+	if (str == NULL)
+	{
+		return (NULL);
+	}
 	while (*str)
 	{
 		nstr[count] = *str;
