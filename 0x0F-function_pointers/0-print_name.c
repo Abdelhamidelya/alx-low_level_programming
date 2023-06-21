@@ -2,9 +2,9 @@
 
 /**
 *print_name - function to Print a name
-* 
+*
 *@name: name to print
-* 
+*
 *@f: function pointer to use
 */
 
